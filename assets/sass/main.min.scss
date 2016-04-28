@@ -1,0 +1,328 @@
+body{
+    background-color: #f2f2f2;
+}
+
+/*General*/
+strong{
+    font-weight: bold !important;
+}
+
+.inline-b{
+    display: inline-block;
+}
+
+body h1{
+    font-size: 2.5rem;
+}
+
+body h2{
+    font-size: 2rem;
+}
+
+body h3{
+    font-size: 1.3rem;
+}
+
+.blight-blue{
+    background-color: #38a3a3;
+}
+
+.clight-blue{
+    color: #38a3a3;
+}
+
+.border-blue{
+    border: solid #2bbbad 1px;
+}
+
+a.blue-link{
+    color: #2bbbad !important;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.no-margin{
+    margin: 0 !important;
+}
+
+.little-padding{
+    padding: 10px !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.select-dropdown{
+    color: #9e9e9e !important;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/*Scroll bar*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #c3c1c1;
+}
+
+/*Navigation*/
+.absolute-center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+#menu-list{
+    margin-left: 1vw;
+}
+
+#logo{
+    z-index: 1;
+    display: inline-block;
+    height: 100%;
+    
+    img{
+        height: calc(100% - 20px);
+        vertical-align: middle;
+    }
+    
+    h1{
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.blue-nav{
+    background-color: #2bbbad;
+    
+    a{
+        color: #ffffff;
+    }
+}
+
+.separator{
+    height: 20px;
+    width: 2px;
+    background-color: #2bbbad;
+    vertical-align: middle;
+}
+
+#logo-container{
+    height: 100%;
+}
+
+/*Index*/
+.search-form-wrapper{
+    margin-top: 5vh;
+}
+
+form .waves-input-wrapper{
+    padding: 0 !important;
+}
+
+#state-type{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    
+    label{
+        flex: 1;
+        margin-right: 15px;
+    }
+}
+
+.bus-line-margin{
+    margin-left: 15px;
+}
+
+form .waves-button-input{
+    height: 100%;
+}
+
+.search-price{
+    margin-right: 10%;
+}
+
+#search-form-price{
+    margin-top: 15px;
+}
+
+#search-button{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
+/*Annonces*/
+.annonce-content{
+    padding: 0 10px;
+    
+    h2{
+        margin-top: 0;
+        font-size: 2.5rem;
+    }
+}
+
+.annonce.odd, .message.odd, annonce.odd{
+    background-color: rgba(0,85,114,0.1);
+}
+
+.annonce a{
+    color: #000;
+}
+
+.annonce-link{
+    flex: 3;
+}
+
+.pagination{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*Page profil*/
+#profil{
+    align-items: flex-start;
+    margin-top: 5vh;
+    
+    h3{
+        padding: 4% 4% 0 4%;
+    }
+}
+
+
+
+.comment{
+    justify-content: space-around;
+    padding: 4%;
+    
+    &.odd{
+        background-color: rgba(0, 85, 114, 0.1);
+    }
+}
+
+#profil-img{
+    margin-right: 4vw;
+}
+
+/*Page messagerie*/
+#messages{
+    margin-top: 5vh;
+    
+    a{
+        color: #000;
+    }
+}
+
+/*Page message à un utilisateur*/
+.private-message{
+    padding: 10px;
+}
+
+.scroll{
+    max-height: 80vh;
+    overflow: auto;
+}
+
+/*Page annonce*/
+#annonce{
+    align-items: flex-start;
+    margin-top: 5vh;
+    
+    h2{
+        margin: 0 4% 0 0;
+        vertical-align: middle;
+    }
+    
+    .btn{
+        height: 25px;
+        line-height: 25px;
+        padding: 0 3%;
+    }
+}
+
+/*Page deposer une annonce*/
+#deposit-annonce{    
+    align-items: flex-start;
+    margin-top: 5vh;
+    
+    h2{
+        margin-bottom: 0;
+    }
+    
+    .file-field .btn{
+        float: none;
+    }
+}
+
+#deposit-sales-type{
+    .btn{
+        height: 150px;
+        min-width: 150px;
+        line-height: normal;
+        text-transform: initial;
+        padding: 10px 15px;
+        
+        &.unselected{
+            background-color: #dfdfdf;
+            color: #9f9f9f;
+        }
+    }
+}
+
+#deposit-dimension{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.desposit-number{
+    margin-right: 1vw;
+}
+
+#deposit-googleMap, #contact-googleMap{
+    height: 400px;
+}
+
+/*Page de contact*/
+.contact{
+    margin-top: 5vh;
+}
