@@ -1,0 +1,30 @@
+@media (max-width: 450px) {
+  /* line 2, ../sass/responsive.min.scss */
+  #logo {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* line 9, ../sass/responsive.min.scss */
+  .annonce-content h2 {
+    font-size: 1.5rem;
+  }
+
+  /* line 13, ../sass/responsive.min.scss */
+  .annonce img {
+    width: 140px;
+    height: 105px;
+  }
+
+  /* line 18, ../sass/responsive.min.scss */
+  .annonce-user {
+    display: none;
+  }
+}
+@media (max-width: 1270px) {
+  /* line 24, ../sass/responsive.min.scss */
+  #deposit-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
