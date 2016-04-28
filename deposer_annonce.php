@@ -113,4 +113,4 @@
     </div>
 
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-<?php  include("footer.php"); ?>1
+<?php  include("footer.php"); ?>
