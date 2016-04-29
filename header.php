@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title>Mark'UTT, site d'annonces de l'UTT</title>
         <link rel="icon" type="image/png" href="/assets/images/favicon.png">
-        <base href="/">
         
         <link rel='stylesheet' href='/assets/css/main.min.css'>
 		<link rel='stylesheet' href='/assets/css/responsive.min.css'>
@@ -46,7 +45,7 @@
         </nav>
     </header>
         
-    <div class="fixed-action-btn horizontal click-to-toggle">
+    <div class="fixed-action-btn">
         <a class="btn-floating btn-large blight-blue">
             <i class="large material-icons">supervisor_account</i>
         </a>

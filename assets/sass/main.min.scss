@@ -7,6 +7,10 @@ strong{
     font-weight: bold !important;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 .inline-b{
     display: inline-block;
 }
@@ -250,6 +254,27 @@ form .waves-button-input{
     a{
         color: #000;
     }
+}
+
+.note-range{
+    color: #2bbbad;
+    font-size: 2rem;
+    outline: none;
+    
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
+
+.notation-medium{
+    font-size: 1.5rem;
+}
+
+.modal-close{
+    color: #b5b5b5;
+    font-weight: bold;
 }
 
 /*Page message à un utilisateur*/

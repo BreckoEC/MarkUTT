@@ -13,9 +13,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id est gravida, consectetur enim at, euismod metus. Praesent nulla lacus, tincidunt a luctus ut, consequat nec quam. Nunc id gravida neque. Nulla scelerisque eleifend neque. Praesent sit amet accumsan neque. Donec eget turpis eget leo commodo consectetur
                     </p>
                 </div>
-                <div class="flex-1 centerS-align">
+                <div class="flex-1 right-align">
                     <a href="profil.php">A.Creusot</a>
-                    <div>&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                    <div class="clight-blue notation-medium">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
                 </div>
             </div>
         </div>

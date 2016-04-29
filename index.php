@@ -84,7 +84,7 @@
                 <div class="right-align flex-1 little-padding annonce-user">
                     <div>
                         <a href="profil.php" class="blue-link">A.Creusot</a>
-                        <div>
+                        <div class="clight-blue notation-medium">
                             &#9733;&#9733;&#9733;&#9734;&#9734;
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                 <div class="right-align flex-1 little-padding annonce-user">
                     <div>
                         <a href="profil.php" class="blue-link">M.Deschamps</a>
-                        <div>
+                        <div class="clight-blue notation-medium">
                             &#9733;&#9733;&#9733;&#9733;&#9733;
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                 <div class="right-align flex-1 little-padding annonce-user">
                     <div>
                         <a href="profil.php" class="blue-link">A.Creusot</a>
-                        <div>
+                        <div class="clight-blue notation-medium">
                             &#9733;&#9733;&#9733;&#9734;&#9734;
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                 <div class="right-align flex-1 little-padding annonce-user">
                     <div>
                         <a href="profil.php" class="blue-link">M.Deschamps</a>
-                        <div>
+                        <div class="clight-blue notation-medium">
                             &#9733;&#9733;&#9733;&#9733;&#9733;
                         </div>
                     </div>
