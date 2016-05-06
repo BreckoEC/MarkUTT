@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title><?php echo $title; ?></title>
         <link rel="icon" type="image/png" href="<?php echo base_url('assets'); ?>/images/favicon.png">
-        <base href="/">
         
         <link rel="stylesheet" href="<?php echo base_url('assets'); ?>/css/main.min.css">
 		<link rel="stylesheet" href="<?php echo base_url('assets'); ?>/css/responsive.min.css">

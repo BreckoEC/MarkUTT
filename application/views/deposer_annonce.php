@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row">
         <div class="col s12 little-padding white" id="deposit-annonce">
             <form action="#">
@@ -113,4 +111,3 @@
     </div>
 
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-<?php  include("footer.php"); ?>

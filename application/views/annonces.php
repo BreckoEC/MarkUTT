@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row">
         <div class="col s12 m10 offset-m1 little-padding" id="annonces">    
             <div class="col m10 offset-m1">
@@ -41,4 +39,3 @@
             </div>
         </div>
     </div>
-<?php  include("footer.php"); ?>

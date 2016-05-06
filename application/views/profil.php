@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row">
         <div class="col s12 m10 offset-m1 little-padding white" id="profil">
             <div class="flex">
@@ -42,4 +40,3 @@
         </div>
         </div>
     </div>
-<?php  include("footer.php"); ?>1

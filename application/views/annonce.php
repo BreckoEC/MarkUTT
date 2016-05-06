@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row">
         <div class="col s12 m10 offset-m1 little-padding white" id="annonce">
             <div class="flex flex-start">
@@ -20,4 +18,3 @@
             </div>
         </div>
     </div>
-<?php  include("footer.php"); ?>1

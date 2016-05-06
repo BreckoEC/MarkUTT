@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row">
         <div class="col s12 m12 l10 offset-l1 little-padding">    
             <div class="panel col m10 offset-m1">
@@ -130,4 +128,3 @@
             </form>
         </div>
     </div>
-<?php  include("footer.php"); ?>

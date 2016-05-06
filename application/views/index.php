@@ -1,5 +1,3 @@
-<?php  include("header.php"); ?>
-
     <div class="row search-form-wrapper">
         <div class="col s12 m10 offset-m1 white little-padding">
             <form action="#" method="POST" id="search_form">
@@ -165,4 +163,3 @@
             </ul>
         </div>
     </div>
-<?php  include("footer.php"); ?>1
