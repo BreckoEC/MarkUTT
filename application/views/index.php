@@ -69,87 +69,33 @@
     <!--Annonces-->
     <div class="row">
         <div class="col s12 m10 offset-m1 white no-padding">
-            <!-- Single Annonce-->
-            <div class="annonce flex">
-                <a href="annonce.php" class="flex annonce-link">
-                    <img src="http://placehold.it/200x150" alt="Polycopié LO12">
-                    <div class="annonce-content little-padding">
-                        <h2>Polycopié LO12</h2>
-                        <div><span class="price"><span class="bold">Prix :</span> 2 €</span></div>
-                        <div><span class="bold">Etat :</span> Moyen</div>
-                    </div>
-                </a>
-                <div class="right-align flex-1 little-padding annonce-user">
-                    <div>
-                        <a href="profil.php" class="blue-link">A.Creusot</a>
-                        <div class="clight-blue notation-medium">
-                            &#9733;&#9733;&#9733;&#9734;&#9734;
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Single Annonce-->
-            <div class="annonce flex odd">
-                <a href="annonce.php" class="flex annonce-link">
-                    <img src="http://placehold.it/200x150" alt="Polycopié LO12">
-                    <div class="annonce-content little-padding">
-                        <h2>Polycopié NF20</h2>
-                        <div><span class="price"><span class="bold">Prix :</span> 4 €</span></div>
-                        <div><span class="bold">Etat :</span> Très bon</div>
-                    </div>
-                </a>
-                <div class="right-align flex-1 little-padding annonce-user">
-                    <div>
-                        <a href="profil.php" class="blue-link">M.Deschamps</a>
-                        <div class="clight-blue notation-medium">
-                            &#9733;&#9733;&#9733;&#9733;&#9733;
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Single Annonce-->
-            <div class="annonce flex">
-                <a href="annonce.php" class="flex annonce-link">
-                    <img src="http://placehold.it/200x150" alt="Polycopié LO12">
-                    <div class="annonce-content little-padding">
-                        <h2>Polycopié LO12</h2>
-                        <div><span class="price"><span class="bold">Prix :</span> 2 €</span></div>
-                        <div><span class="bold">Etat :</span> Moyen</div>
-                    </div>
-                </a>
-                <div class="right-align flex-1 little-padding annonce-user">
-                    <div>
-                        <a href="profil.php" class="blue-link">A.Creusot</a>
-                        <div class="clight-blue notation-medium">
-                            &#9733;&#9733;&#9733;&#9734;&#9734;
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Single Annonce-->
-            <div class="annonce flex odd">
-                <a href="annonce.php" class="flex annonce-link">
-                    <img src="http://placehold.it/200x150" alt="Polycopié LO12">
-                    <div class="annonce-content little-padding">
-                        <h2>Polycopié NF20</h2>
-                        <div><span class="price"><span class="bold">Prix :</span> 4 €</span></div>
-                        <div><span class="bold">Etat :</span> Très bon</div>
-                    </div>
-                </a>
-                <div class="right-align flex-1 little-padding annonce-user">
-                    <div>
-                        <a href="profil.php" class="blue-link">M.Deschamps</a>
-                        <div class="clight-blue notation-medium">
-                            &#9733;&#9733;&#9733;&#9733;&#9733;
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php
+                $i = 1;
+                foreach($annonces as $annonce){
+                    $html = '<!-- Single Annonce-->';
+                    ($i%2)? $html.= '<div class="annonce flex odd">' : $html.= '<div class="annonce flex">';
+                    $html.= '   <a href="TODOannonce.php" class="flex annonce-link">';
+                    $html.= '      <img src="http://placehold.it/200x150" alt="'.$annonce['title'].'"/>';
+                    $html.= '      <div class="annonce-content little-padding">';
+                    $html.= '          <h2>'.$annonce['title'].'</h2>';
+                    $html.= '          <div><span class="price"><span class="bold">Prix :</span> '.$annonce['price'].'€</span></div>';
+                    $html.= '          <div><span class="bold">Etat :</span> '.$annonce['state'].'</div>';
+                    $html.= '      </div>';
+                    $html.= '   </a>';
+                    $html.= '   <div class="right-align flex-1 little-padding annonce-user">';
+                    $html.= '       <div>';
+                    $html.= '           <a href="TODOprofil.php" class="blue-link">TODO</a>';
+                    $html.= '           <div class="clight-blue notation-medium">TODO&#9733;&#9733;&#9733;&#9734;&#9734;</div>';
+                    $html.= '       </div>';
+                    $html.= '   </div>';
+                    $html.= '</div>';
+                    echo $html;
+                    $i++;
+                }
+            ?>
         </div>
     </div>
+    <!--
     <div class="row">
         <div class="col s12 m10 offset-m1 right-align no-padding">
             <ul class="pagination">
@@ -163,3 +109,4 @@
             </ul>
         </div>
     </div>
+    -->
