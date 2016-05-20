@@ -290,19 +290,25 @@ form .waves-button-input {
 /* line 246, ../sass/main.min.scss */
 #profil-img {
   margin-right: 4vw;
+  height: 150px;
+}
+
+/* line 251, ../sass/main.min.scss */
+#preferences {
+  padding: 0 4%;
 }
 
 /*Page messagerie*/
-/* line 251, ../sass/main.min.scss */
+/* line 256, ../sass/main.min.scss */
 #messages {
   margin-top: 5vh;
 }
-/* line 254, ../sass/main.min.scss */
+/* line 259, ../sass/main.min.scss */
 #messages a {
   color: #000;
 }
 
-/* line 259, ../sass/main.min.scss */
+/* line 264, ../sass/main.min.scss */
 .note-range {
   color: #2bbbad;
   font-size: 2rem;
@@ -314,41 +320,41 @@ form .waves-button-input {
   -o-user-select: none;
 }
 
-/* line 271, ../sass/main.min.scss */
+/* line 276, ../sass/main.min.scss */
 .notation-medium {
   font-size: 1.5rem;
 }
 
-/* line 275, ../sass/main.min.scss */
+/* line 280, ../sass/main.min.scss */
 .modal-close {
   color: #b5b5b5;
   font-weight: bold;
 }
 
 /*Page message à un utilisateur*/
-/* line 281, ../sass/main.min.scss */
+/* line 286, ../sass/main.min.scss */
 .private-message {
   padding: 10px;
 }
 
-/* line 285, ../sass/main.min.scss */
+/* line 290, ../sass/main.min.scss */
 .scroll {
   max-height: 80vh;
   overflow: auto;
 }
 
 /*Page annonce*/
-/* line 291, ../sass/main.min.scss */
+/* line 296, ../sass/main.min.scss */
 #annonce {
   align-items: flex-start;
   margin-top: 5vh;
 }
-/* line 295, ../sass/main.min.scss */
+/* line 300, ../sass/main.min.scss */
 #annonce h2 {
   margin: 0 4% 0 0;
   vertical-align: middle;
 }
-/* line 300, ../sass/main.min.scss */
+/* line 305, ../sass/main.min.scss */
 #annonce .btn {
   height: 25px;
   line-height: 25px;
@@ -356,21 +362,21 @@ form .waves-button-input {
 }
 
 /*Page deposer une annonce*/
-/* line 308, ../sass/main.min.scss */
+/* line 313, ../sass/main.min.scss */
 #deposit-annonce {
   align-items: flex-start;
   margin-top: 5vh;
 }
-/* line 312, ../sass/main.min.scss */
+/* line 317, ../sass/main.min.scss */
 #deposit-annonce h2 {
   margin-bottom: 0;
 }
-/* line 316, ../sass/main.min.scss */
+/* line 321, ../sass/main.min.scss */
 #deposit-annonce .file-field .btn {
   float: none;
 }
 
-/* line 322, ../sass/main.min.scss */
+/* line 327, ../sass/main.min.scss */
 #deposit-sales-type .btn {
   height: 150px;
   min-width: 150px;
@@ -378,31 +384,31 @@ form .waves-button-input {
   text-transform: initial;
   padding: 10px 15px;
 }
-/* line 329, ../sass/main.min.scss */
+/* line 334, ../sass/main.min.scss */
 #deposit-sales-type .btn.unselected {
   background-color: #dfdfdf;
   color: #9f9f9f;
 }
 
-/* line 336, ../sass/main.min.scss */
+/* line 341, ../sass/main.min.scss */
 #deposit-dimension {
   display: flex;
   flex: 1;
   justify-content: flex-end;
 }
 
-/* line 342, ../sass/main.min.scss */
+/* line 347, ../sass/main.min.scss */
 .desposit-number {
   margin-right: 1vw;
 }
 
-/* line 346, ../sass/main.min.scss */
+/* line 351, ../sass/main.min.scss */
 #deposit-googleMap, #contact-googleMap {
   height: 400px;
 }
 
 /*Page de contact*/
-/* line 351, ../sass/main.min.scss */
+/* line 356, ../sass/main.min.scss */
 .contact {
   margin-top: 5vh;
 }
